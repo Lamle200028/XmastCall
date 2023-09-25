@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- default config that does not allow plain text traffic -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Specific config for local tests (enable plain text traffic) -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">https://api.dev.bkplus.tech</domain>
+    </domain-config>
+
+    <debug-overrides android:debuggable="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>

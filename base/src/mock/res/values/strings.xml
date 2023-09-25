@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Mock Base dev</string>
+
+    <!-- URL/API -->
+    <string name="api_end_point">http://bkplus.tech:9090</string>
+    <string name="protocol">http</string>
+    <string name="domain">google.com.vn</string>
+    <string name="root_path">/</string>
+    <string name="api_client_id">Mock Base Android</string>
+
+</resources>

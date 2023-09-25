@@ -1,0 +1,67 @@
+{
+  "result": [
+    {
+      "id": 1,
+      "title": "My Favorite Teacher",
+      "image": "https://img.freepik.com/free-vector/icons-big-data-background_23-2148006396.jpg",
+      "publish_date": "2018-04-26 16:20:00"
+    },
+    {
+      "id": 2,
+      "title": "A Visit to an Exhibition",
+      "image": "https://img.freepik.com/free-vector/icons-big-data-background_23-2148006396.jpg",
+      "publish_date": "2018-04-26 16:18:00"
+    },
+    {
+      "id": 3,
+      "title": "The Saddest Day of My Life",
+      "image": "https://img.freepik.com/free-vector/icons-big-data-background_23-2148006396.jpg",
+      "publish_date": "2018-04-26 16:15:00"
+    },
+    {
+      "id": 4,
+      "title": "When My Teacher Scolded Me",
+      "image": "https://img.freepik.com/free-vector/icons-big-data-background_23-2148006396.jpg",
+      "publish_date": "2018-04-26 16:12:00"
+    },
+    {
+      "id": 5,
+      "title": "A Football Match",
+      "image": "https://img.freepik.com/free-vector/icons-big-data-background_23-2148006396.jpg",
+      "publish_date": "2018-04-26 16:25:00"
+    },
+    {
+      "id": 6,
+      "title": "Rising Prices",
+      "image": "https://img.freepik.com/free-vector/icons-big-data-background_23-2148006396.jpg",
+      "publish_date": "2018-04-26 16:24:00"
+    },
+    {
+      "id": 7,
+      "title": "Look Before You Leap",
+      "image": "https://img.freepik.com/free-vector/icons-big-data-background_23-2148006396.jpg",
+      "publish_date": "2018-04-26 16:22:00"
+    },
+    {
+      "id": 8,
+      "title": "The Habit of Reading",
+      "image": "https://img.freepik.com/free-vector/icons-big-data-background_23-2148006396.jpg",
+      "publish_date": "2018-04-26 16:22:00"
+    },
+    {
+      "id": 9,
+      "title": "The Saddest Day of My Life",
+      "image": "https://img.freepik.com/free-vector/icons-big-data-background_23-2148006396.jpg",
+      "publish_date": "2018-04-26 16:22:00"
+    },
+    {
+      "id": 10,
+      "title": "Traveling in a D. T. C. Bus",
+      "image": "https://img.freepik.com/free-vector/icons-big-data-background_23-2148006396.jpg",
+      "publish_date": "2018-04-26 16:22:00"
+    }
+  ],
+  "pagination": {
+    "after_id": 10
+  }
+}

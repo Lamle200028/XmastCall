@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792255108134",
+    "project_id": "x-mas-48062",
+    "storage_bucket": "x-mas-48062.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792255108134:android:a958e68add7efaec36c2e7",
+        "android_client_info": {
+          "package_name": "com.santaclaus.fakecall.christmas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792255108134-gpuu4ohsfmdtsfdbtdhcs6tmhloftdij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPKVWE9E2Wjnd7Ud9DF2kxV7q_vqedZ8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792255108134-gpuu4ohsfmdtsfdbtdhcs6tmhloftdij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Base</string>
+
+    <string name="api_end_point" translatable="false">https://api.dev.bkplus.tech/ringtone/</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_border_white">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/close_btn"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/padding_default"
+            android:layout_marginTop="@dimen/padding_default"
+            android:src="@mipmap/ic_exit" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/padding_default"
+            android:paddingHorizontal="40dp"
+            android:text="@string/setting_policy"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tv_title"
+            android:layout_margin="@dimen/_16sdp"
+            android:textColor="@color/black" />
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_nav_graph"
+    app:startDestination="@id/splashNavFragment">
+
+    <fragment
+        android:id="@+id/splashNavFragment"
+        android:name="com.qrcode.ai.app.ui.splash.ui.SplashNavFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash_nav" />
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.qrcode.ai.app.ui.main.MainActivity"
+        android:label="MainActivity"
+        tools:layout="@layout/fragment_main_nav" />
+
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.qrcode.ai.app.ui.splash.ui.onboarding.OnboardingFragment"
+        android:label="OnboardingFragment"
+        tools:layout="@layout/fragment_onboarding" />
+
+    <fragment
+        android:id="@+id/firstLanguageFragment"
+        android:name="com.qrcode.ai.app.ui.splash.ui.first_language.FirstLanguageFragment"
+        android:label="FirstLanguageFragment"
+        tools:layout="@layout/fragment_first_language" />
+
+    <action
+        android:id="@+id/openOnboarding"
+        app:destination="@id/onboardingFragment" />
+
+    <action
+        android:id="@+id/openFristLanguage"
+        app:destination="@id/firstLanguageFragment" />
+
+    <action
+        android:id="@+id/openMain"
+        app:destination="@id/mainActivity" />
+    <fragment
+        android:id="@+id/noInternetFragment"
+        android:name="com.qrcode.ai.app.ui.main.ui.no_internet.NoInternetFragment"
+        android:label="NoInternetFragment"/>
+    <action
+        android:id="@+id/noInternet"
+        app:destination="@id/noInternetFragment"/>
+</navigation>

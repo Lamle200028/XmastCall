@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_third"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:scaleType="fitXY"
+            android:src="@drawable/onboading_3" />
+
+        <TextView
+            android:id="@+id/text_onboard_third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:fontFamily="@font/calibri"
+            android:text="@string/title_onboard_third"
+            android:textColor="#0E0D35"
+            android:textFontWeight="700"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/desc_onboard_3"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/desc_onboard_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/figtree_regular"
+            android:lineHeight="18dp"
+            android:text="@string/desc_onboard_third"
+            android:textColor="#6E6E86"
+            android:textFontWeight="400"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</layout>

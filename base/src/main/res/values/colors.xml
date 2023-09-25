@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#10151B</color>
+    <color name="colorPrimaryDark">#1EE19B</color>
+    <color name="colorAccent">#2CB252</color>
+    <color name="highEmp">#10151B</color>
+    <color name="lineOnDark">#2A2F37</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#10151B</color>
+    <color name="onboarding_background">#FF151620</color>
+
+    <color name="colorAds">#9E9E9E</color>
+
+
+    <color name="lightTransparent">#16000000</color>
+
+    <color name="ads_btn_text_color">#ffffffff</color>
+    <color name="ads_btn_ripple_color">#ffffffff</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+
+</resources>

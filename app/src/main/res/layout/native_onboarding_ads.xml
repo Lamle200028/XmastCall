@@ -1,0 +1,98 @@
+<com.google.android.gms.ads.nativead.NativeAdView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_first_open">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_ads"
+            android:backgroundTint="#A00000"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="@string/ad"
+            android:textColor="@color/white"
+            android:textFontWeight="500"
+            android:textSize="8sp"
+            tools:ignore="SmallSp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ad_app_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/rectangle_image_ad_unified" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ad_headline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/calibri"
+                    android:textColor="#A00000"
+                    android:paddingBottom="4dp"
+                    android:textFontWeight="500"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="StreamYard is a live streaming studio" />
+
+                <TextView
+                    android:id="@+id/ad_advertiser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:lineHeight="15dp"
+                    android:paddingBottom="4dp"
+                    android:fontFamily="@font/calibri"
+                    android:maxLines="2"
+                    android:textColor="#B3B7BD"
+                    android:textSize="12sp"
+                    tools:text="The easiest way to create professional livestream. Get started today. " />
+            </LinearLayout>
+
+        </LinearLayout>
+        <com.google.android.gms.ads.nativead.MediaView
+            android:id="@+id/ad_media"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="12dp"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/ad_call_to_action"
+            style="@style/DefaultButtonAds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="12dp"
+            android:backgroundTint="#A00000"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/calibri"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            tools:text="TÌM HIỂU THÊM" />
+
+    </LinearLayout>
+</com.google.android.gms.ads.nativead.NativeAdView>

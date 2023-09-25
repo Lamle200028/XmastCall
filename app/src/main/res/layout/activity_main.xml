@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawerLayout">
+        <FrameLayout
+            android:id="@+id/main_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fragment
+                android:id="@+id/nav_host_main_fragment"
+                android:name="androidx.navigation.fragment.NavHostFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:defaultNavHost="true"
+                app:navGraph="@navigation/main_nav_graph" />
+        </FrameLayout>
+<!--        <com.google.android.material.navigation.NavigationView-->
+<!--            android:id="@+id/navView"-->
+<!--            android:layout_width="250dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_gravity="start"-->
+<!--            app:menu="@menu/menu_home"-->
+<!--            app:itemTextColor="#0E0D35"-->
+<!--            app:itemIconTint="#0E0D35"-->
+<!--            android:background="@color/white"-->
+<!--            app:itemBackground="@drawable/divider_line"-->
+<!--            app:headerLayout="@layout/nav_header"-->
+<!--            android:theme="@style/AppTheme.NoActionBar"/>-->
+    </androidx.drawerlayout.widget.DrawerLayout>
+</layout>

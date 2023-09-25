@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.qrcode.ai.app.ui.main.ui.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <action
+        android:id="@+id/openMainNav"
+        app:destination="@id/fragment_main_nav" />
+
+    <fragment
+        android:id="@+id/fragment_main_nav"
+        android:name="com.qrcode.ai.app.ui.main.ui.MainNavFragment"
+        tools:layout="@layout/fragment_main_nav" />
+
+    <action
+        android:id="@+id/backToSplash"
+        app:destination="@id/splashActivity" />
+
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="com.qrcode.ai.app.ui.splash.SplashActivity"
+        android:label="SplashActivity"
+        tools:layout="@layout/fragment_splash_nav" />
+
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.qrcode.ai.app.ui.main.ui.setting.settings.language.LanguageFragment"
+        android:label="LanguageFragment"
+        tools:layout="@layout/fragment_language" />
+
+    <action
+        android:id="@+id/openLanguage"
+        app:destination="@id/languageFragment" />
+
+    <fragment
+        android:id="@+id/content_call"
+        android:name="com.qrcode.ai.app.ui.main.ui.fake_call_content.ChooseContentCall"
+        android:label="ChoosenContentCall"
+        tools:layout="@layout/fragment_choose_content_call" />
+
+    <action
+        android:id="@+id/gotoContent"
+        app:destination="@+id/content_call" />
+
+    <fragment
+        android:id="@+id/fragment_setup_fake_call"
+        android:name="com.qrcode.ai.app.ui.main.ui.setupfakecall.SetupFakeCallFragment" />
+
+    <action
+        android:id="@+id/openSetupFakeCall"
+        app:destination="@id/fragment_setup_fake_call" />
+
+    <fragment
+        android:id="@+id/choose_messager"
+        android:name="com.qrcode.ai.app.ui.main.ui.messager.FakeMessagerFragment"
+        android:label="ChooseQRCodeFragment"
+        tools:layout="@layout/fragment_fake_messager" />
+
+    <action
+        android:id="@+id/openMessager"
+        app:destination="@id/choose_messager" />
+    <fragment
+        android:id="@+id/noInternetFragment"
+        android:name="com.qrcode.ai.app.ui.main.ui.no_internet.NoInternetFragment"
+        android:label="NoInternetFragment" />
+    <action
+        android:id="@+id/noInternet"
+        app:destination="@id/noInternetFragment" />
+
+    <fragment
+        android:id="@+id/countDownFragment"
+        android:name="com.qrcode.ai.app.ui.main.ui.setupfakecall.CountDownFragment"
+        android:label="CountDownFragment"
+        tools:layout="@layout/fragment_countdown" />
+
+    <action
+        android:id="@+id/countdown"
+        app:destination="@id/countDownFragment" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.qrcode.ai.app.ui.main.ui.setting.SettingFragment"
+        android:label="SettingFragment" />
+
+    <action
+        android:id="@+id/openSetting"
+        app:destination="@id/settingFragment" />
+    <fragment
+        android:id="@+id/wallpaperFragment"
+        android:name="com.qrcode.ai.app.ui.main.ui.Wallpapers.WallpapersFragment"
+        android:label="WallpapersFragment" />
+
+    <action
+        android:id="@+id/openWallpapers"
+        app:destination="@id/wallpaperFragment" />
+    <fragment
+        android:id="@+id/voiceMail"
+        android:name="com.qrcode.ai.app.ui.main.ui.voicemail.VoiceMailFragment"
+        android:label="VoiceMail" />
+    <fragment
+        android:id="@+id/writeLetter"
+        android:name="com.qrcode.ai.app.ui.main.ui.writeletter.WriteLetterFragment"
+        android:label="WriteLetter" />
+    <fragment
+        android:id="@+id/backGroundLetter"
+        android:name="com.qrcode.ai.app.ui.main.ui.writeletter.BackGroundLetterFragment"
+        android:label="BackGroundLetter" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/headerLetter"
+        android:name="com.qrcode.ai.app.ui.main.ui.writeletter.HeaderLetterFragment"
+        android:label="HeaderLetter" />
+</navigation>

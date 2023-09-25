@@ -1,0 +1,135 @@
+<resources>
+
+    <string name="app_name" translatable="false">Christmas Call</string>
+    <string name="facebook_app_id" translatable="false">3409383999345908</string>
+    <string name="facebook_token_id" translatable="false">b7a39f1116d3a00f272e722b67d091b7</string>
+    <string name="ad" translatable="false">Ad</string>
+
+    <string name="back_pressed_finish">Please press back again to quit</string>
+    <string name="setting_language">Languages</string>
+    <string name="setting_policy">Privacy Policy</string>
+    <string name="setting_en">English</string>
+    <string name="setting_vi">Vietnamese</string>
+    <string name="setting_it">Italian</string>
+    <string name="setting_spain">Spanish</string>
+    <string name="setting_hindi">Hindi</string>
+    <string name="setting_china">China</string> <!-- China -->
+    <string name="setting_russian">Russian</string> <!-- Russian -->
+    <string name="setting_bengal">Bengal</string> <!-- Bengal -->
+    <string name="setting_japan">Japan</string> <!-- Japan -->
+    <string name="setting_marathi">Marathi</string> <!-- Marathi -->
+    <string name="setting_telugu">Telugu</string> <!-- Telugu -->
+    <string name="setting_turkish">Turkish</string> <!-- Turkish -->
+    <string name="setting_tamil">Tamil</string> <!-- Tamil -->
+    <string name="setting_korea">Korea</string> <!-- Korea -->
+    <string name="setting_italian">Italian</string> <!-- Italian -->
+    <string name="setting_thailand">Thailand</string> <!-- Thailand -->
+
+    <string name="terms_of_use">Terms of use</string>
+    <string name="setting">Settings</string>
+    <string name="language">Language</string>
+    <string name="version">Version</string>
+    <string name="rate_application">Rate app</string>
+    <string name="share">Share app</string>
+    <string name="loading_ads">Loading ads…</string>
+
+    <!-- Onboard -->
+    <string name="title_onboard_first">Meet Santa through Video Call</string>
+    <string name="desc_onboard_first">Connect with Santa Claus directly through adorable video calls. Prepare your Christmas wishes and share the joy with Santa!</string>
+    <string name="title_onboard_second">Voice call with Santa</string>
+    <string name="desc_onboard_second">Enjoy the warm voice of Santa through a simulated call. Listen to him read your wishlist!</string>
+    <string name="title_onboard_third">Set cool wallpapers and chat with Santa</string>
+    <string name="desc_onboard_third">Set cool backgrounds, send cute messages to Santa and tell him all about yourself!</string>
+    <string name="btn_next">Next</string>
+
+    <!-- Notification Permission -->
+    <string name="menu_tools">Tools</string>
+    <string name="menu_home">Home</string>
+    <string name="title_rate">Do you like the app?</string>
+    <string name="desc_rate">Let us know your experience\n 5 stars is the best on Google Play!</string>
+    <string name="rate_us">Rate us</string>
+    <string name="update">Update</string>
+    <string name="your_friend">\"Your friend \"</string>
+    <string name="visit_app">\" wants you to check out our app!. Visit us at: \"</string>
+    <string name="choose_way_share">Choose a way to share:</string>
+    <string name="feedback">Feedback</string>
+    <string name="title_onboard">QR Code AI ART</string>
+    <string name="desc_onboard">Make amazing your QR code AI</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="settings">Settings</string>
+    <string name="history">History</string>
+    <string name="message">Message</string>
+    <string name="santa_claus_is_typing">Santa Claus is typing</string>
+    <string name="text_splash">Christmas Call From Santa</string>
+    <string name="in_coming_call">In-Coming Call</string>
+    <string name="setup_video_call">Setup Video Call</string>
+    <string name="setup_voice_call">Setup Voice Call</string>
+    <string name="fake_call_video">Fake Call Video</string>
+    <string name="out_going_call">Out-Going Call</string>
+    <string name="now">Now</string>
+    <string name="time_second_later">%d seconds later</string>
+    <string name="time_minute_later">%d minutes later</string>
+    <string name="time_hour_later">%d hours later</string>
+    <string name="notify_call_iscoming">a call from santa is coming</string>
+    <string name="fakevoice">Fake\nVoice Call</string>
+    <string name="fakevideo">Fake\nVideo Call</string>
+    <string name="fakemes">Fake\nMessages</string>
+    <string name="setting_pt">Portuguese</string>
+    <string name="setting_de">German</string>
+    <string name="setting_zh">China</string>
+    <string name="setting_fr">French</string>
+    <string name="no_internet_description">There is a connection error, please check \nyour internet and try again</string>
+    <string name="connect">Connect</string>
+    <string name="popup_per">We need permission to access the camera to perform this action!</string>
+    <string name="pop_please_over">Please Grant Overlay Permission</string>
+    <string name="make_sure_that">Make sure that Silent Mode is turned off, and turn up the volume if needed.</string>
+    <string name="the_screen_will">The screen will go blank in a few seconds.Don’t close the app and don’t lock your device!</string>
+    <string name="call_start_in">Call starts in</string>
+    <string name="action">Action</string>
+    <string name="call_end">Call End</string>
+    <string name="video_calling">Video Calling</string>
+    <string name="get_start">GET START</string>
+    <string name="next">NEXT</string>
+    <string name="wallpapers">Wallpapers</string>
+    <string name="setwall">Set Wallpaper</string>
+    <string name="voice_call">Voice Call</string>
+    <string name="video_call">Video Call</string>
+    <string name="messages">Messages</string>
+    <string name="fake_video_call">Fake Video Call</string>
+    <string name="lock_screen">Lock screen</string>
+    <string name="home_screen">Home screen</string>
+    <string name="home_and_lock_screen">Home &amp; Lock screen</string>
+    <string name="voicmail">Voicemail</string>
+    <string name="myvideo">My video</string>
+    <string name="writeletter">Write Letter</string>
+    <string name="title_warning">Warning: Low volume!</string>
+    <string name="text_warning">Your device’s sound volume might be set too low.</string>
+    <string name="text1_warning">In order to be able to Santa during the call, please make sure  that your device is not set to Silent Mode or Mute, and that the sound volume is up.</string>
+    <string name="text_btn_warning">Got it!</string>
+    <string name="mute">Mute</string>
+    <string name="keypad">Keypad</string>
+    <string name="speaker">Speaker</string>
+    <string name="addcall">Add Call</string>
+    <string name="facetime">FaceTime</string>
+    <string name="contact">Contacts</string>
+    <string name="text_voicemail">Santa Claus</string>
+    <string name="text2_voicemail">Calling...</string>
+    <string name="tap_to_write">Tap to Write</string>
+    <string name="mynameis">My name is:</string>
+    <string name="write_your_name">Write your name</string>
+    <string name="age_user">I am __ years old</string>
+    <string name="write_your_age">Write your age</string>
+    <string name="yourwish">For Christmas this year, I want to make a wish</string>
+    <string name="write_your_wish">Write your with</string>
+    <string name="design_to_letter">Design to letter</string>
+    <string name="favorite_to_letter">Choose your favorite envelope</string>
+    <string name="send">Send</string>
+    <string name="dear_mr_Santa">Dear mr Santa</string>
+    <string name="and_i_am_years_old">and I am years old.</string>
+    <string name="title_write_letter2">I HAVE SOME SECRET WISHES</string>
+    <string name="wish_write">"For Christmas this year, I want to make a wish _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ "</string>
+    <string name="text2">I can’t walt for you to visit me this year! I will leave out a snack for you and reindeer.</string>
+    <string name="text3">With love and gratitude.</string>
+    <string name="send_sus">Your mail has been sent</string>
+    <string name="unmute">Unvoice</string>
+</resources>
